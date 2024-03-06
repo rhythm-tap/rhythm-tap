@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    {% include 'meta.html' %}
+    <link rel="stylesheet" href="/static/css/rhythm_tap.css?v={{ config.NOW }}">
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <div class="wrapper">
+        <div class="container">
+            <main>
+                <h1>{{ page_title }}</h1>
+                <div class="content">
+                    <p id="descriptionTop" class="description"></p>
+                    <input id="inputName" class="form-input" type="text" placeholder="Your name">
+                    <div id="btn1" class="btn-group">
+                        <button class="btn btn-normal btn-blue" type="button"></button>
+                    </div>
+                    <div id="btn2" class="btn-group">
+                        <button class="btn btn-normal btn-green" type="button"></button>
+                    </div>
+                    <p id="descriptionBottom" class="description"></p>
+                    <div id="countdown" style="display:none;">3</div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+    <script src="/static/js/regist.js?v={{ config.NOW }}"></script>
+</body>
+</html>

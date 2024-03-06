@@ -1,0 +1,23 @@
+__pycache__/
+.DS_Store
+.DS_Store/
+
+/docker/data
+/src/data*/
+/src/_data*/
+/src/deeplearning/*.pth
+/src/svm/tmp/
+/src/svm/tmp2/
+/src/svm/tmp_dtw/
+/src/svm/tmp_rhythm/
+
+/src/data_pro_test/*_extracted_features_*.csv
+/src/data_pro_test/*_rhythm_features_*.csv
+/src/data_pro_test/*_tsfresh_features_*.csv
+
+
+
+# !/src/data_pro_merry
+# !/src/data_pro_music
+# !/src/data_pro_relatime_free
+# !/src/data_pro_test

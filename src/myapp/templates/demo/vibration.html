@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    {% include 'meta.html' %}
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <div class="wrapper">
+        <div class="container">
+            <main>
+                <h1>{{ page_title }}</h1>
+                <p>ボタンを押すと2秒間振動します</p>
+                <button id="btn">振動</button>
+                <div id="result"></div>
+            </main>
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+</body>
+</html>

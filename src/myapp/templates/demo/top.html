@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    {% include 'meta.html' %}
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <div class="wrapper">
+        <div class="container">
+            <main>
+                <h1>{{ page_title }}</h1>
+                <ul>
+                    <li><a href="/demo/acceleration">💮加速度センサーのデモ</a></li>
+                    <li><a href="/demo/gyro">💮ジャイロセンサーのデモ</a></li>
+                    <li><a href="/demo/magnetism">💮磁気センサーのデモ</a></li>
+                    <li><a href="/demo/vibration">💮バイブレーションのデモ</a></li>
+                    <li><a href="/demo/audio_output">💮音声出力のデモ</a></li>
+                </ul>
+            </main>
+            <!-- {% include 'sidebar.html' %} -->
+        </div>
+        <!-- {% include 'footerbar.html' %} -->
+    </div>
+
+    {% include 'footer.html' %}
+</body>
+</html>

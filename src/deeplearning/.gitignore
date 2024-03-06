@@ -1,0 +1,17 @@
+# for raiden server
+
+*.sh.o*
+*.sh.e*
+
+log_*/
+log__*/
+log_*_/
+*.pth
+
+!log_*/*.sh.o*
+!log_*/*.sh.e*
+
+# log_merry111/
+
+*.sh
+*.bat

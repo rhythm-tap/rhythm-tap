@@ -1,0 +1,21 @@
+Flask==2.3.2
+Werkzeug==2.3.7
+
+# DB
+flask_sqlalchemy==3.0.0
+pymysql==1.0.3
+
+# ライブラリ
+fastdtw==0.3.4
+numpy==1.22
+scipy==1.7.3
+pandas==1.5.3
+matplotlib==3.7.1
+# sklearn==0.0.post1
+scikit-learn==1.1.1
+torch==1.13.1
+torchvision==0.14.1
+torchmetrics==0.11.4
+torchsummary==1.5.1
+torchinfo==1.8.0
+tsfresh==0.20.1

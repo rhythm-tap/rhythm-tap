@@ -1,0 +1,55 @@
+
+
+/* スクロール禁止 */
+html, body {
+    overflow: hidden;
+}
+.wrapper {
+    padding-bottom: 0;
+}
+
+/* タイトルサイズ調整 */
+main > h1 {
+    margin: 0;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+/* コピーライト調整 */
+.copyright {
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+
+/* ボタンmargin調整 */
+.btn-group{
+    margin: 0.7rem 0;
+}
+
+/* 登録 */
+.content {
+    width: 100%;
+}
+.description {
+    text-align: center;
+}
+.form-input {
+    width: calc(100% - var(--header-margin)*2 - 5px);
+}
+#countdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    font-weight: bold;
+}

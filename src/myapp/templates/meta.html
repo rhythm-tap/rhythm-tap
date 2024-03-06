@@ -1,0 +1,56 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO -->
+<meta name="title" content="{{ config.META_TITLE }}">
+<meta name="description" content="{{ config.META_DESCRIPTION }}">
+<meta name="keywords" content="{{ config.META_KEYWORDS }}">
+<meta name="twitter:card" content="{{ config.META_TWITTER_CARD }}">
+<meta name="twitter:site" content="{{ config.META_TWITTER_ID }}">
+<meta name="twitter:creator" content="{{ config.META_TWITTER_ID }}">
+<meta name="twitter:title" content="{{ config.META_TITLE }}">
+<meta name="twitter:description" content="{{ config.META_DESCRIPTION }}">
+<meta property="og:title" content="{{ config.META_TITLE }}">
+<meta property="og:description" content="{{ config.META_DESCRIPTION }}">
+<meta property="og:type" content="{{ config.META_TYPE }}">
+<meta property="og:url" content="{{ config.META_URL }}">
+<meta property="og:image" content="{{ config.META_TWITTER_IMAGE }}">
+<meta property="og:site_name" content="{{ config.META_SITE_NAME }}">
+<meta property="og:locale" content="{{ config.META_LOCALE }}">
+
+
+<!-- Google AdSense -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- PWA iPhone表示 -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="{{ config.SITE_NAME }}">
+<link rel="apple-touch-icon" href="/static/src/icon_white.png">
+<!-- <link rel="manifest" href="/manifest.json"> -->
+
+<!-- import -->
+<link rel="icon" type="image/png" href="/static/src/icon.png">
+<link rel="stylesheet" href="/static/css/common.css">
+
+<!-- chartjs -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-streaming@1.8.0/dist/chartjs-plugin-streaming.min.js"></script>
+
+<!-- ServiceWorker -->
+<!--
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service_worker.js').then(function(registration) {
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }).catch(function(err) {
+            console.log('ServiceWorker registration failed: ', err);
+        });
+    }
+</script>
+-->
+
+<title>{{ page_title }}</title>
